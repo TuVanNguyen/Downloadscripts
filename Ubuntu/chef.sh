@@ -1,3 +1,5 @@
+#! /bin/bash
+
 # Ubuntu 18.04
 # Check out here for latest version URL: https://downloads.chef.io/chef-server
 # Installing server
