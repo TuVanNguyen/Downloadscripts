@@ -8,7 +8,7 @@ ssh-keygen -t rsa
 cat .ssh/id_rsa.pub >> .ssh/authorized_keys
 ssh localhost “date” 
 
-echo "[webservers]" > /etc/ansible/hosts
-echo "localhost" > /etc/ansible/hosts
+echo "[webservers]" >> /etc/ansible/hosts
+echo "localhost" >> /etc/ansible/hosts
 
 ansible –m ping webservers
