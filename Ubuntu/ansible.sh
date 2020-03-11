@@ -1,4 +1,5 @@
 sudo apt-get install software-properties-common
+sudo apt-get install ssh #ensure ssh runs properly
 sudo apt-add-repository ppa:ansible/ansible
 sudo apt-get update
 sudo apt-get install ansible
