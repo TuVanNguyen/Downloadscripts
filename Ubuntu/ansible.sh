@@ -12,4 +12,4 @@ ssh localhost “date”
 echo "[webservers]" >> /etc/ansible/hosts
 echo "localhost" >> /etc/ansible/hosts
 
-ansible –m ping webservers
+# ansible –m ping webservers # validate installation
