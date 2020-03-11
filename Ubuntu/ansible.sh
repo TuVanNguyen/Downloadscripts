@@ -7,7 +7,7 @@ mkdir .ssh
 sudo mkdir -p /root/.ssh
 ssh-keygen -t rsa
 sudo cat .ssh/id_rsa.pub >> /root/.ssh/authorized_keys
-ssh localhost “date” 
+# ssh localhost “date” # validate ssh login 
 
 echo "[webservers]" >> /etc/ansible/hosts
 echo "localhost" >> /etc/ansible/hosts
